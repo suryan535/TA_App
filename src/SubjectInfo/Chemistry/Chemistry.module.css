@@ -1,0 +1,36 @@
+.Table
+{
+    padding:20px;
+}
+
+.TableContent
+{
+    margin-top:6%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap:20px;
+}
+
+.AddHolder
+{
+    width:100%;
+    text-align:center;
+    padding:20px;
+}
+
+.Add{
+    font-size:2rem;
+    font-weight:700;
+    color:#3aafa9;
+    background-color:#def2f1;
+    padding:16px;
+    border-radius:15px;
+}
+
+.Add:hover{
+    transition:all 0.4s;
+   box-shadow: 0 3px 3px 1px rgba(0,0,0,0.5);
+   transform:translateY(-5px);
+   color:white;
+   background-color:rgb(63, 223, 130);
+}

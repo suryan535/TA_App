@@ -1,0 +1,29 @@
+.card
+{
+    background-color:#def2f1;
+    font-size:1.7rem;
+    padding:16px;
+    text-align: center;
+    color:#2b7a78;
+    font-weight:600;
+    border-radius:10px;
+    box-shadow: 0 5px 2px 2px rgba(0,0,0,0.4);
+}
+.card:hover{
+    box-shadow: 0 10px 2px 2px rgba(0,0,0,0.4);
+    transition: transform 0.4s;
+    transform:translateY(-8px);
+}
+
+.SubjectName,.Semester,.Credit
+{
+    margin-bottom:10px;
+}
+
+.Image img
+{
+    width:100px;
+    box-shadow: none;
+    padding:16px;
+    margin-bottom:40px;
+}

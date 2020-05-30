@@ -1,0 +1,31 @@
+nav{
+    background-color: #def2f1;
+    padding:14px;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:100;
+    width:100%;
+}
+
+.NavContainer
+{
+    display:flex;
+}
+
+.item
+{
+    padding:16px;
+    font-size:1.1rem;
+    color:#2b7a78;
+    font-weight:bold;
+    font-family: 'Varela Round', sans-serif;
+    display:block;
+    border-radius:8px;
+    text-decoration: none;
+}
+
+.item:hover{
+    background-color: #3aafa9;
+    color:#feffff;
+}

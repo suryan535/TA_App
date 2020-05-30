@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Home from './components/Home/Home';
+import Subjects from './components/Subject/Subjects';
+import Chemistry from './SubjectInfo/Chemistry/Chemistry';
+import NavigationBar from './components/NavigationBar/Navigation';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Maths from './SubjectInfo/Maths/Maths';
+import English from './SubjectInfo/English/English';
+import Mechanics from './SubjectInfo/Mechanics/Mechanics';
+import Electronics from './SubjectInfo/Electronics/Electronics';
+import Physics from './SubjectInfo/Physics/Physics';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <NavigationBar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/subjects' component={Subjects} />
+          <Route path='/chemistry' component={Chemistry} />
+          <Route path='/math' component={Maths} />
+          <Route path='/physics' component={Physics} />
+          <Route path='/mechanics' component={Mechanics} />
+          <Route path='/electronics' component={Electronics} />
+          <Route path='/english' component={English} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
