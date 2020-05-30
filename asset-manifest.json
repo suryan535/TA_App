@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/TA_App/static/css/main.7dd09325.chunk.css",
+    "main.js": "/TA_App/static/js/main.093b28da.chunk.js",
+    "main.js.map": "/TA_App/static/js/main.093b28da.chunk.js.map",
+    "runtime-main.js": "/TA_App/static/js/runtime-main.ad756469.js",
+    "runtime-main.js.map": "/TA_App/static/js/runtime-main.ad756469.js.map",
+    "static/js/2.bfd56e6a.chunk.js": "/TA_App/static/js/2.bfd56e6a.chunk.js",
+    "static/js/2.bfd56e6a.chunk.js.map": "/TA_App/static/js/2.bfd56e6a.chunk.js.map",
+    "index.html": "/TA_App/index.html",
+    "precache-manifest.2affb899f40539e02d5ef751b96cc97a.js": "/TA_App/precache-manifest.2affb899f40539e02d5ef751b96cc97a.js",
+    "service-worker.js": "/TA_App/service-worker.js",
+    "static/css/main.7dd09325.chunk.css.map": "/TA_App/static/css/main.7dd09325.chunk.css.map",
+    "static/js/2.bfd56e6a.chunk.js.LICENSE.txt": "/TA_App/static/js/2.bfd56e6a.chunk.js.LICENSE.txt",
+    "static/media/Chemistry.svg": "/TA_App/static/media/Chemistry.926a2059.svg",
+    "static/media/Electronics.svg": "/TA_App/static/media/Electronics.6a7836d7.svg",
+    "static/media/English.svg": "/TA_App/static/media/English.7a21fd51.svg",
+    "static/media/HomeImage.jpg": "/TA_App/static/media/HomeImage.d56951a6.jpg",
+    "static/media/Maths.svg": "/TA_App/static/media/Maths.95d30658.svg",
+    "static/media/Mechanics.svg": "/TA_App/static/media/Mechanics.a2e9f121.svg",
+    "static/media/Physics.svg": "/TA_App/static/media/Physics.af5bd4af.svg",
+    "static/media/Student.svg": "/TA_App/static/media/Student.5f701654.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad756469.js",
+    "static/js/2.bfd56e6a.chunk.js",
+    "static/css/main.7dd09325.chunk.css",
+    "static/js/main.093b28da.chunk.js"
+  ]
+}
